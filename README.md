@@ -11,6 +11,8 @@ In semiconductor manufacturing, process excursions can lead to significant yield
 * **Failure Mode:** Distribution analysis reveals a "Right Shift" anomaly. Wafers with higher values on Sensor 59 are significantly more likely to fail.
 * **Recommendation:** Implement a tighter Upper Control Limit (UCL) on Sensor 59 based on the "Golden Path" baseline of passing wafers.
 
+**Note:** GitHub cannot render the interactive HTML report directly. To see the full analysis including visualizations, please view the [Exploratory Analysis Notebook](notebooks/01_exploratory_analysis.ipynb).
+
 ## 2. Technical Methodology
 * **Data Source:** UCI Machine Learning Repository (SECOM Data).
 * **Stack:** Python, Pandas, Scikit-Learn, Matplotlib/Seaborn.
